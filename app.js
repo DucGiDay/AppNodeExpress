@@ -38,6 +38,6 @@ app.get('/about', (req, res) => res.render('about'))
 //sử dụng routes posts
 app.use('/posts', posts)
 
-const PORT = 5000
+const PORT = process.env.PORT || 5000
 
 app.listen(PORT, () => console.log(`Server started on port ${PORT} http://localhost:5000/`))
