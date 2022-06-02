@@ -1,7 +1,6 @@
 {
   "name": "appnodeexpress",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -20,5 +19,10 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "gentle-crag-15970"
+  },
+  "description": ""
 }
